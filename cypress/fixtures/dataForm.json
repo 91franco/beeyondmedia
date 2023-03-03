@@ -1,0 +1,27 @@
+{
+    "URL_Prod": "https://directory.beeyondcloud.com/",
+    "email_address": "francoguerrenio@test.com",
+    "password": "test1234",
+    "messageIncorrectUser":"Incorrect username or password. Please try again.",
+    "phone":"1133430368",
+    "role": "QA",
+    "estimated": "100000",
+    "messageSubmit": "We received your contact! Will be in touch with you soon.",
+    "messageInvalideEmail": "Email address is not valid",
+    "messageFieldMandatory": "This field is mandatory",
+    "urlthanks_dev":"https://site-dev.cloudx-labs.com/thank-you",
+    "urlthanks":"https://www.cloudx.com/thank-you",
+    "contactus_Dev":"https://site-dev.cloudx-labs.com/contact-us",
+    "services": {
+        "dev": "Web development",
+        "mobile": "Mobile Applications",
+        "mvp": "MVP development",
+        "dataEngi": "Data engineering",
+        "blockchain": "Blockchain",
+        "digital": "Digital Archaeology",
+        "autoQA": "Automation & QA",
+        "backend": "Backend & microservices",
+        "design": "UX/UI design",
+        "noYet": "I don't know yet"
+    }
+}

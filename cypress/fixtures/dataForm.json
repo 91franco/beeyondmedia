@@ -1,6 +1,10 @@
 {
     "URL_Prod": "https://directory.beeyondcloud.com/",
     "email_address": "francoguerrenio@test.com",
+    "invalid_email": "francoguerrenio",
     "password": "test1234",
-    "messageIncorrectUser":"Incorrect username or password. Please try again."
+    "messageIncorrectUser":"Incorrect username or password. Please try again.",
+    "messageRequiredField":"This field is required.",
+    "messageInvalidUser":"Please enter a valid Email.",
+    "meesageSignUp":"Enter your details to create your account:"
 }

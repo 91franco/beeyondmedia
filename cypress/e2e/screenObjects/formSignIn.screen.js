@@ -12,6 +12,9 @@ class FormSignInScreen {
     return('#kt_login_signin_submit')
   }
 
+  get signUpBtn(){
+    return('#kt_login_signup')
+  }
 }
 
 module.exports = new FormSignInScreen();

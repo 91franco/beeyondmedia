@@ -283,8 +283,8 @@ describe('Test Cases SignUp', function () {
         
         cy.allure()
         .step('Validate new user')
-        .endStep(cy.contains('Something was wrong!')       
-            .should('contain.text', 'Something was wrong!')
+        .endStep(cy.contains('New user!')       
+            .should('contain.text', 'New user!')
             .should('be.visible'))
     })
  

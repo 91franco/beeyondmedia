@@ -2,9 +2,24 @@
     "URL_Prod": "https://directory.beeyondcloud.com/",
     "email_address": "francoguerrenio@test.com",
     "invalid_email": "francoguerrenio",
+    "first_name":"Franco",
+    "last_name":"Guerreño",
+    "mobile_phone":"11222233",
+    "business_name":"Testing",
+    "job_title":"QA",
+    "tax_id":"1234",
+    "address":"Av corrientes 2222",
+    "city":"CABA",
+    "country":"Argentina",
+    "state":"Buenos Aires",
+    "zip_code":"2023",
     "password": "test1234",
+    "difpassword": "test12345",
+    "invalidPassword":"a",
     "messageIncorrectUser":"Incorrect username or password. Please try again.",
     "messageRequiredField":"This field is required.",
     "messageInvalidUser":"Please enter a valid Email.",
-    "meesageSignUp":"Enter your details to create your account:"
-}
+    "meesageSignUp":"Enter your details to create your account:",
+    "messageInvalidPassword":"Please enter at least 5 characters.",
+    "messageConfirmPassword":"Please enter the same value again."
+}   

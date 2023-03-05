@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "cypress:open": "cypress open",
-    "ui-regression-allure": "cypress run --browser chrome --spec cypress/e2e/1-getting-started --env allure=true",
+    "ui-regression-allure": "cypress run --browser chrome --spec cypress/e2e/beeyondSite --env allure=true",
     "allure:report": "allure generate allure-results --clean -o allure-report"
   },
   "repository": {

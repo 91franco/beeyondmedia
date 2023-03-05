@@ -21,7 +21,7 @@ class FormSignUpScreen {
   }
 
   get inputMail(){
-    return ('input[name="mail"]');
+    return ('[id="sign-up-form"]>[class="input-group"]>[name="mail"]');
   }
 
   get mailRequired(){
@@ -88,14 +88,6 @@ class FormSignUpScreen {
     return ('#state-error');
   }
 
-  get inputState(){
-    return ('input[name="state"]');
-  }
-
-  get stateRequired(){
-    return ('#state-error');
-  }
-
   get inputCountry(){
     return ('input[name="country"]');
   }
@@ -129,7 +121,7 @@ class FormSignUpScreen {
   }
 
   get inputAgree(){
-    return ('input[name="agree"]');
+    return ('#sign-up-form > .row > .col > .kt-checkbox > span');
   }
 
   get agreeRequired(){

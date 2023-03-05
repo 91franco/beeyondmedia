@@ -61,52 +61,94 @@ describe('Test Cases SignUp', function () {
         .endStep(cy.get(FormSignUpScreen.signUpSubmitBtn).click());
 
         cy.allure()
-        .step('Validate required all fields')
-        .step(cy.get(FormSignUpScreen.firstNameRequired)
+        .step('Validate required Firs Name')
+        .endStep(cy.get(FormSignUpScreen.firstNameRequired)
             .should('contain.text', this.dataForm.messageRequiredField)
-            .should('be.visible'))
-        .step(cy.get(FormSignUpScreen.lastNameRequired)
+            .should('be.visible'));
+
+        cy.allure()
+        .step('Validate required Last Name')
+        .endStep(cy.get(FormSignUpScreen.lastNameRequired)
             .should('contain.text', this.dataForm.messageRequiredField)
-            .should('be.visible'))
-        .step(cy.get(FormSignUpScreen.mailRequired)
+            .should('be.visible'));
+
+        cy.allure()
+        .step('Validate required email')
+        .endStep(cy.get(FormSignUpScreen.mailRequired)
             .should('contain.text', this.dataForm.messageRequiredField)
-            .should('be.visible'))
-        .step(cy.get(FormSignUpScreen.mobileRequired)
+            .should('be.visible'));
+
+        cy.allure()
+        .step('Validate required Mobile')
+        .endStep(cy.get(FormSignUpScreen.mobileRequired)
             .should('contain.text', this.dataForm.messageRequiredField)
-            .should('be.visible'))
-        .step(cy.get(FormSignUpScreen.businessRequired)
+            .should('be.visible'));
+
+        cy.allure()
+        .step('Validate required Business')
+        .endStep(cy.get(FormSignUpScreen.businessRequired)
             .should('contain.text', this.dataForm.messageRequiredField)
-            .should('be.visible'))
-        .step(cy.get(FormSignUpScreen.titleRequired)
+            .should('be.visible'));
+
+        cy.allure()
+        .step('Validate required Title')
+        .endStep(cy.get(FormSignUpScreen.titleRequired)
             .should('contain.text', this.dataForm.messageRequiredField)
-            .should('be.visible'))    
-        .step(cy.get(FormSignUpScreen.taxidRequired)
+            .should('be.visible'))   ;
+
+        cy.allure()
+        .step('Validate required Tax Id')
+        .endStep(cy.get(FormSignUpScreen.taxidRequired)
             .should('contain.text', this.dataForm.messageRequiredField)
-            .should('be.visible'))
-        .step(cy.get(FormSignUpScreen.addressRequired)
+            .should('be.visible'));
+
+        cy.allure()
+        .step('Validate required Address')
+        .endStep(cy.get(FormSignUpScreen.addressRequired)
             .should('contain.text', this.dataForm.messageRequiredField)
-            .should('be.visible'))
-        .step(cy.get(FormSignUpScreen.cityRequired)
+            .should('be.visible'));
+
+        cy.allure()
+        .step('Validate required City')
+        .endStep(cy.get(FormSignUpScreen.cityRequired)
             .should('contain.text', this.dataForm.messageRequiredField)
-            .should('be.visible'))
-        .step(cy.get(FormSignUpScreen.stateRequired)
+            .should('be.visible'));
+
+        cy.allure()
+        .step('Validate required State')
+        .endStep(cy.get(FormSignUpScreen.stateRequired)
             .should('contain.text', this.dataForm.messageRequiredField)
-            .should('be.visible'))
-        .step(cy.get(FormSignUpScreen.countryRequired)
+            .should('be.visible'));
+
+        cy.allure()
+        .step('Validate required Country')
+        .endStep(cy.get(FormSignUpScreen.countryRequired)
             .should('contain.text', this.dataForm.messageRequiredField)
-            .should('be.visible'))    
-        .step(cy.get(FormSignUpScreen.zipcodeRequired)
+            .should('be.visible'))  ;
+
+        cy.allure()
+        .step('Validate required Zip Code')
+        .endStep(cy.get(FormSignUpScreen.zipcodeRequired)
             .should('contain.text', this.dataForm.messageRequiredField)
-            .should('be.visible'))
-        .step(cy.get(FormSignUpScreen.passwordRequired)
+            .should('be.visible'));
+
+        cy.allure()
+        .step('Validate required Password')
+        .endStep(cy.get(FormSignUpScreen.passwordRequired)
             .should('contain.text', this.dataForm.messageRequiredField)
-            .should('be.visible'))
-        .step(cy.get(FormSignUpScreen.rpasswordRequired)
+            .should('be.visible'));
+
+        cy.allure()
+        .step('Validate required Repeat Password')
+        .endStep(cy.get(FormSignUpScreen.rpasswordRequired)
             .should('contain.text', this.dataForm.messageRequiredField)
             .should('be.visible'))   
+
+        cy.allure()
+        .step('Validate required email')
         .endStep(cy.get(FormSignUpScreen.agreeRequired)       
            .should('contain.text', this.dataForm.messageRequiredField)
-            .should('be.visible'));
+           .should('be.visible'));
 
     })
 

@@ -2,7 +2,7 @@
 
 ## How to run:
 
-- clone this repo https://github.com/gequise/beeyondmedia.git
+- clone the repo https://github.com/gequise/beeyondmedia.git
 - install dependencies: `npm install`
 - run tests: `npm run cypress:open`
 - generate allure result: `npm run ui-regression-allure`

@@ -7,7 +7,7 @@
 - run tests: `npm run cypress:open`
 - generate allure result: `npm run ui-regression-allure`
 - generate allure report: `npm run allure:report`
-- open report: `allure open`
+- open report: `allure:open`
 
 # Test Cases
 
